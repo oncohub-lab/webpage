@@ -1,0 +1,33 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--lightPink);
+    background: linear-gradient(
+      270deg,
+      rgba(158, 191, 255, 1) 51%,
+      rgba(122, 158, 223, 1) 100%
+    );
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    text-align: justify;
+}
+.contact div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 10vh;
+}
+
+@media (min-width: 650px) {
+  .contact {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {}
+@media (min-width: 1024px) {
+  .contact {
+    font-size: 18px;
+  }
+}

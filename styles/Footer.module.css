@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0);
+    height: 40px;
+    width: 100%;
+  }
+.footer a {
+    height: 100%;
+}
+.logo {
+    background-image: url('/logo/rs.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 55vw;
+    height: 100%;
+}
+@media (min-width: 768px) {
+  .logo {
+    width: 30vw;
+  }
+}
+@media (min-width: 1024px) {
+  .logo {
+    width: 25vw;
+  }
+}
+@media (min-width: 1280px) {
+
+}
