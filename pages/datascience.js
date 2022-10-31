@@ -29,7 +29,7 @@ export default function DataScience() {
           <Image src='/tools/pandas.svg' height={120} width={120} />
         </div>
         <div>
-          <Image src='/tools/scikit-learn.png' height={60} width={120} />
+          <Image src='/tools/scikit-learn.png' height={40} width={80} />
         </div>
         <div>
           <Image src='/tools/tensorFlow.svg' height={120} width={120} />
