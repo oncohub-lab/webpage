@@ -30,6 +30,14 @@ export const Boxes = () => {
             They can work as volontieres giving contribution to oncology and
             gather great expirence at the same time. We believe that open source
             community has big power which can be leverage in oncology research.
+            <br />
+            <br />
+            Data science and oncology are very complex, at the beginning we
+            would like to focus on sarcoma. It's rare type of cancer, in this
+            field are relatively small amount of research. We would like to
+            change it and create solid competencies around this domain. Of
+            course we would like to increse our activity step by step to other
+            oncology fields.
           </p>
         ) : (
           <p className={sBox.description}>
@@ -49,6 +57,14 @@ export const Boxes = () => {
             jednosześnie zdobywając cenne doświadczenie. Wierzymy w siłę
             programistów "open source" i że mogą mieć ogromny wpływ na rozwój
             onkologii.
+            <br />
+            <br />
+            Jako, że 'data science' i onkologia są dziedzinami bardzo złożonymi,
+            na początkowym etapie organizacja skupia się na mięsakach (łac.
+            sarcoma). Są to nowotwory rzadkie, w ich kierunku jest stosunkowo
+            mało badań. Chcemy to zmienić i stworzyć solidne kompetencje wokół
+            tego zagadnienia. Oczywiście w przyszłości chcemy stopniowo
+            zwiększać zasięg działań na pozostałem obszary onkologii.
           </p>
         )}
         <div className={sBox.buttons}>
