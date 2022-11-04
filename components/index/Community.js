@@ -12,12 +12,12 @@ export const Community = () => {
       <div className={sCommunity.container}>
         {/* <div className={sCommunity.item}>
           <SocialIcon url='https://twitter.com' />
-        </div>
-        <div className={sCommunity.item}>
-          <SocialIcon url='https://discord.com' />
-        </div> */}
+        </div>*/}
         <div className={sCommunity.item}>
           <SocialIcon url='https://github.com/oncohub-lab' />
+        </div>
+        <div className={sCommunity.item}>
+          <SocialIcon url='https://discord.gg/VXHAFtya' />
         </div>
         {/* <div className={sCommunity.item}>
           <SocialIcon url='https://linkedin.com' />
