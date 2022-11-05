@@ -13,13 +13,31 @@ export default function DataScience() {
       <div className={sDash.title}>
         <h1 style={{ textAlign: 'center' }}>Data Science Dashboard</h1>
       </div>
-      <div>
-        under construction{' '}
-        <Image src='/under_construction.svg' height={120} width={120} />
-      </div>
-      <div className={sDash.docs}>
-        <h2>wiki page</h2>
-        <Link href='https://oncohub-lab.gitbook.io/data-science/'>📚</Link>
+      <div className={sDash.links}>
+        <Link href='https://oncohub-lab.gitbook.io/data-science/'>
+          <div>
+            <div>wiki </div>
+            <div>
+              <Image src='/social/book.svg' height={24} width={24} />
+            </div>
+          </div>
+        </Link>
+        <Link href='https://discord.gg/VXHAFtya'>
+          <div>
+            <div>discord </div>
+            <div>
+              <Image src='/social/discord.svg' height={24} width={24} />
+            </div>
+          </div>
+        </Link>
+        <Link href='https://github.com/oncohub-lab'>
+          <div>
+            <div>repo </div>
+            <div>
+              <Image src='/social/github.svg' height={24} width={24} />
+            </div>
+          </div>
+        </Link>
       </div>
       <div className={sDash.tools}>
         <div>
