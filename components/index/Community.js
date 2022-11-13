@@ -17,7 +17,7 @@ export const Community = () => {
           <SocialIcon url='https://github.com/oncohub-lab' />
         </div>
         <div className={sCommunity.item}>
-          <SocialIcon url='https://discord.gg/VXHAFtya' />
+          <SocialIcon url='https://discord.gg/GtTQqU9t' />
         </div>
         {/* <div className={sCommunity.item}>
           <SocialIcon url='https://linkedin.com' />

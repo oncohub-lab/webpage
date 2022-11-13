@@ -5,6 +5,7 @@
     margin-top: 15vh;
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 .container .title {
@@ -22,7 +23,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 40px;
+    cursor: pointer;
 
 }
 .container .links div {
@@ -30,21 +32,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     font-size: 14px;
+}
+.container .links div div {
+    margin-top: 5px;
 }
 
 .container .tools {
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  display: flex;
-  align-items: center;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10vh;
+    left: 0;
+    height: 40px;
+    width: 100%;
+  }
 .container .tools div {
-    margin: 20px;
+    padding: 15px;
 }
-
 
 @media (min-width: 1024px) {
     .container .title h1 {

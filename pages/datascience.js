@@ -22,7 +22,7 @@ export default function DataScience() {
             </div>
           </div>
         </Link>
-        <Link href='https://discord.gg/VXHAFtya'>
+        <Link href='https://discord.gg/GtTQqU9t'>
           <div>
             <div>discord </div>
             <div>
